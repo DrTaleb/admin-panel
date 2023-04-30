@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <title>panel</title>
+    <!--    bootstrap-5.2.0-dist-->
+    <link rel="stylesheet" href="plugins/bootstrap-5.2.0-dist/css/bootstrap.rtl.min.css">
+    <!--    owl carousel-->
+    <link rel="stylesheet" href="plugins/owl-carousel/css/owl.carousel.css">
+    <!--    apex charts-->
+    <link rel="stylesheet" href="plugins/apexcharts-bundle/dist/apexcharts.css">
+    <!--    font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--    styles-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<main>
+    <nav class="navbar navbar-expand bg-main-blue py-1 fixed-top">
+        <div class="container-fluid">
+            <div class="d-flex flex-row align-items-center gap-3">
+                <div class="menu-icon active d-flex flex-column justify-content-center rounded">
+                    <i class="fas fa-bars text-white"></i>
+                </div>
+                <a class="navbar-brand text-white" href="#">نت استار</a>
+                <div class="d-flex flex-row ps-1 gap-2 dropend">
+                                    <span class="px-3 text-white small" data-bs-toggle="dropdown"
+                                          aria-expanded="false">
+                                        میزکار دلتاگروپ
+                                        <i class="fa fa-caret-down"></i>
+                                    </span>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item py-2 ripple-effect ripple-dark desk-item desk-active">
+                            <i class="fa fa-check"></i>
+                            <span class="desk-name mt-1" type="button">میزکار طالب</span>
+                            <span class="badge bg-main-blue text-center">
+                                ۱
+                            </span>
+                        </li>
+                        <li class="dropdown-item py-2 ripple-effect ripple-dark desk-item">
+                            <i class="fa fa-check"></i>
+                            <span class="desk-name mt-1" type="button">میزکار طالب</span>
+                            <span class="badge bg-main-blue text-center">
+                                ۱
+                            </span>
+                        </li>
+                        <li class="dropdown-item py-2 ripple-effect ripple-dark desk-item">
+                            <i class="fa fa-check"></i>
+                            <span class="desk-name mt-1" type="button">میزکار طالب</span>
+                            <span class="badge bg-main-blue text-center">
+                                ۱
+                            </span>
+                        </li>
+                        <li class="dropdown-divider mx-3"></li>
+                        <li class="dropdown-item py-2 ripple-effect ripple-dark d-flex flex-row justify-content-center">
+                            <i class="fa fa-plus-circle"></i>
+                            <span type="button">میزکار جدید</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex flex-row align-items-center gap-4">
+                <div class="side-bar-icon active d-flex flex-column justify-content-center rounded">
+                    <i class="fas fa-bell text-white"></i>
+                </div>
+                <div class="d-inline-block">
+                    <div class="switch-holder">
+                        <div class="switch-toggle">
+                            <input type="checkbox" id="dark-mode-switch"
+                                   data-bsstyle="assets/css/bootstrap-dark.min.css"
+                                   data-appstyle="assets/css/app-dark.css">
+                            <label for="dark-mode-switch"></label>
+                        </div>
+                        <div class="switch-holder-back"></div>
+                    </div>
+                </div>
+                <img class="rounded-circle" width="40" height="40" src="assets/img/20220322_155430.jpg">
+            </div>
+        </div>
+    </nav>
+    <div class="left-side-bar shadow col-xl-6 col-lg-7 col-md-8 col-12">
+        <div class="d-flex flex-column mt-4 pt-5 mx-4">
+            <div class="d-flex flex-row">
+                <div class="title-parent w-100">
+                    <h5 class="main-title- text-capitalize header-title text-secondary">
+                        گزارش ها
+                    </h5>
+                </div>
+            </div>
+            <div class="left-side-bar-inner d-flex flex-column gap-4">
+                <div class="d-flex flex-row align-items-center">
+                    <div class="col-1">
+                        <i class="pinned-note-icon bg-light fa fa-sign-in p-3 rounded-circle"></i>
+                    </div>
+                    <div class="col-10 d-flex flex-column">
+                      <span class="small text-secondary">
+                          درخواست های عضویت
+                      </span>
+                    </div>
+                </div>
+                <div class="pinned-Invitation-section offset-1 d-flex flex-row align-items-center flex-wrap gap-2">
+                    <div class="Invitation-card rounded-3 p-2">
+                        <div class="d-flex flex-row align-items-center gap-2">
+                            <i class="pinned-note-icon small alert alert-success fa fa-add p-2 rounded-circle"></i>
+                            <span>
+                                ابولفضل رضایی درخواست جدیدی را برای عضویت شما در میزکار دلتاگروپ ارسال کرد
+                            </span>
+                        </div>
+                        <div class="col-12 d-flex flex-row justify-content-end align-items-center">
+                            <button class="btn"><i class="fa fa-times"></i></button>
+                            <button class="btn"><i class="fa fa-check"></i></button>
+                        </div>
+                    </div>
+                    <div class="Invitation-card rounded-3 p-2">
+                        <div class="d-flex flex-row align-items-center gap-2">
+                            <i class="pinned-note-icon small alert alert-success fa fa-add p-2 rounded-circle"></i>
+                            <span>
+                                ابولفضل رضایی درخواست جدیدی را برای عضویت شما در میزکار دلتاگروپ ارسال کرد
+                            </span>
+                        </div>
+                        <div class="col-12 d-flex flex-row justify-content-end align-items-center">
+                            <button class="btn"><i class="fa fa-times"></i></button>
+                            <button class="btn"><i class="fa fa-check"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row align-items-center">
+                    <div class="col-1">
+                        <i class="pinned-note-icon bg-light fa fa-location-pin-lock p-3 rounded-circle"></i>
+                    </div>
+                    <div class="col-10 d-flex flex-column">
+                      <span class="small text-secondary">
+                          یادآوری های تقویم
+                      </span>
+                    </div>
+                </div>
+                <div class="pinned-reminder-section offset-1 d-flex flex-row align-items-center flex-wrap gap-2">
+                  <span class="alert alert-success d-flex flex-row align-items-center d-none">
+                      <i class="fa fa-check me-3"></i>
+                      هیچ یادآوری برای نمایش وجود ندارد
+                  </span>
+                    <div class="pinned-reminder danger rounded-3 d-flex flex-row align-items-center">
+                        <div class="col d-flex flex-row justify-content-start">
+                          <span class="ms-4">
+                              <i class="fa fa-trash"></i>
+                          </span>
+                            <span class="small ms-3">
+                              یادآور تاریخ گذشته
+                          </span>
+                        </div>
+                    </div>
+                    <div class="pinned-reminder danger rounded-3 d-flex flex-row align-items-center">
+                        <div class="col d-flex flex-row justify-content-start">
+                          <span class="ms-4">
+                              <i class="fa fa-trash"></i>
+                          </span>
+                            <span class="small ms-3">
+                              یادآور تاریخ گذشته
+                          </span>
+                        </div>
+                    </div>
+                    <div class="pinned-reminder warning rounded-3 d-flex flex-row align-items-center">
+                        <div class="col d-flex flex-row justify-content-start">
+                          <span class="ms-4">
+                              <i class="fa fa-trash"></i>
+                          </span>
+                            <span class="small ms-3">
+                              یادآور امروز
+                          </span>
+                        </div>
+                    </div>
+                    <div class="pinned-reminder warning rounded-3 d-flex flex-row align-items-center">
+                        <div class="col d-flex flex-row justify-content-start">
+                          <span class="ms-4">
+                              <i class="fa fa-trash"></i>
+                          </span>
+                            <span class="small ms-3">
+                              یادآور امروز
+                          </span>
+                        </div>
+                    </div>
+                    <div class="pinned-reminder not-important rounded-3 d-flex flex-row align-items-center">
+                        <div class="col d-flex flex-row justify-content-start">
+                          <span class="ms-4">
+                              <i class="fa fa-trash"></i>
+                          </span>
+                            <span class="small ms-3">
+                              یادآور فردا
+                          </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row align-items-center">
+                    <div class="col-1">
+                        <i class="bg-light fa fa-note-sticky p-3 rounded-circle"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <span class="small text-secondary">
+                          یادداشت های پین شده
+                      </span>
+                    </div>
+                </div>
+                <div class="pinned-note-section offset-1 d-flex flex-row align-items-center flex-wrap gap-2">
+                    <span class="alert alert-secondary d-flex flex-row align-items-center d-none">
+                      <i class="fa fa-sticky-note me-3"></i>
+                      هیچ یادداشتی برای نمایش وجود ندارد
+                  </span>
+                    <div class="pinned-note rounded-3">
+
+                    </div>
+                    <div class="pinned-note rounded-3">
+
+                    </div>
+                </div>
+                <div class="d-flex flex-row align-items-center">
+                    <div class="col-1">
+                        <i class="bg-light fa fa-tasks p-3 rounded-circle"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <span class="small text-secondary">
+                          وظایف شما در پروژه نت استار تغییر کرد
+                      </span>
+                    </div>
+                </div>
+                <div class="pinned-task-section offset-1 d-flex flex-row align-items-center flex-wrap gap-2 p-2">
+                    <span class="success d-flex flex-row align-items-center p-3 rounded-3 d-none">
+                      <i class="fa fa-check me-3"></i>
+                      هیچ وظیفه جدیدی برای انجام وجود ندارد
+                    </span>
+                    <div class="pinned-task rounded-3 d-flex flex-row align-items-center justify-content-between p-1 gap-2">
+                        <div class="d-flex flex-row gap-2 align-items-center">
+                            <i class="bg-light small fa fa-tasks-alt p-3 rounded-circle"></i>
+                            <span class="font-item-title">
+                            خرید ابزار برای کار
+                            </span>
+                        </div>
+                        <a class="btn btn-sm btn-dark">
+                            نمایش جزئیات
+                        </a>
+                    </div>
+                    <div class="pinned-task rounded-3">
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <div class="parent d-flex flex-row flex-wrap">
+        <div class="navigation-menu w-sidebar shadow w-sidebar-sm">
+            <div class="side-bar col-12 position-relative d-lg-flex pt-sm-sidebar">
+                <div class="nav-item-parent col-12 d-flex flex-column p-1 ps-3 mt-4 mt-sm-2">
+                    <div class="menu-opener d-flex flex-row">
+                        <div class="title-parent w-100">
+                            <span class="main-title- text-capitalize header-title text-secondary">
+                                داشبورد
+                            </span>
+                        </div>
+                        <span class="mt-1 ms-2">
+                            <i class="fa fa-angle-down text-secondary"></i>
+                            </span>
+                    </div>
+                    <div class="menu-items-parent col-12">
+                        <a href="#" class="side-bar-item ripple-effect ripple-dark rounded gap-4 ps-3 active">
+                            <img class="h-50" src="assets/img/home-icon-silhouette-svgrepo-com.svg">
+                            <span class="text-secondary">داشبورد</span>
+                        </a>
+                        <a href="#" class="side-bar-item ripple-effect ripple-dark rounded gap-4 ps-3">
+                            <img class="h-50" src="assets/img/chat.svg">
+                            <span class="text-secondary">گفتگو ها</span>
+                        </a>
+                        <a href="#" class="side-bar-item rounded gap-4 ps-3">
+                            <img class="h-50" src="assets/img/project-icon.svg">
+                            <span class="text-secondary">پروژه ها</span>
+                        </a>
+                        <a href="#" class="side-bar-item rounded gap-4 ps-3">
+                            <img class="h-50" src="assets/img/mail-142.svg">
+                            <span class="text-secondary">نامه ها</span>
+                        </a>
+                        <a href="#" class="side-bar-item rounded gap-4 ps-3">
+                            <img class="h-50" src="assets/img/freelancer-freelance-icon.svg">
+                            <span class="text-secondary">فریلنسر ها</span>
+                        </a>
+                        <a href="#" class="side-bar-item rounded gap-4 ps-3">
+                            <img class="h-50" src="assets/img/file-1453.svg">
+                            <span class="text-secondary"> فایل ها</span>
+                        </a>
+                        <a href="#" class="side-bar-item rounded gap-4 ps-3">
+                            <img class="h-50" src="assets/img/to-do-list-13180.svg">
+                            <span href="#" class="text-secondary">یادداشت های من</span>
+                        </a>
+                        <a href="#" class="side-bar-item rounded gap-4 ps-3">
+                            <img class="h-50" src="assets/img/computer-6828.svg">
+                            <span href="#" class="text-secondary">مانیتورینگ</span>
+                        </a>
+                        <a href="#" class="side-bar-item rounded gap-4 ps-3">
+                            <img class="h-50" src="assets/img/box-9156.svg">
+                            <span href="#" class="text-secondary">پکیج ها</span>
+                        </a>
+                    </div>
+                    <div class="teammate-section-opener d-flex flex-row">
+                        <div class="title-parent w-100">
+                            <span class="main-title- text-capitalize header-title text-secondary">
+                                همکاران من
+                            </span>
+                        </div>
+                        <span class="mt-1 ms-2">
+                            <i class="fa fa-angle-down text-secondary"></i>
+                            </span>
+                    </div>
+                    <div class="teammates-section">
+                        <a href="#" class="teammate ps-1 rounded">
+                            <img class="h-75 rounded-circle" src="assets/img/20220322_155430.jpg">
+                            <div class="d-flex flex-column">
+                                <span class="text-dark">
+                                محمد جواد طالب کارگر
+                                </span>
+                                <span class="small text-secondary">
+                                    مشاور مالی
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" class="teammate ps-1 rounded">
+                            <img class="h-75 rounded-circle" src="assets/img/20220322_155430.jpg">
+                            <div class="d-flex flex-column">
+                                <span class="text-dark">
+                                محمد جواد طالب کارگر
+                                </span>
+                                <span class="small text-secondary">
+                                    مشاور مالی
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="service-section-opener d-flex flex-row">
+                        <div class="title-parent w-100">
+                            <span class="main-title- text-capitalize header-title text-secondary">
+                                سرویس ها
+                            </span>
+                        </div>
+                        <span class="mt-1 ms-2">
+                            <i class="fa fa-angle-down text-secondary"></i>
+                        </span>
+                    </div>
+                    <div class="service-section">
+                        <div class="service">
+                            <img class="service-icon" src="assets/img/project-icon.svg">
+                            <span>بیمه</span>
+                        </div>
+                        <div class="service">
+                            <img class="service-icon" src="assets/img/project-icon.svg">
+                            <span>بیمه</span>
+                        </div>
+                        <div class="service">
+                            <img class="service-icon" src="assets/img/project-icon.svg">
+                            <span>بیمه</span>
+                        </div>
+                        <div class="service">
+                            <img class="service-icon" src="assets/img/project-icon.svg">
+                            <span>بیمه</span>
+                        </div>
+                        <div class="service">
+                            <img class="service-icon" src="assets/img/project-icon.svg">
+                            <span>بیمه</span>
+                        </div>
+                        <div class="service">
+                            <img class="service-icon" src="assets/img/project-icon.svg">
+                            <span>بیمه</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content w-content px-md-4 px-1 container-fluid">
+            <div class="content-sec-one flex-wrap">
+                <div class="content-sec-one-right gap-4 w-right-content pe-md-4 order-1 order-md-0">
+                    <div class="task-section-opener d-flex flex-row align-items-center mt-4 mt-md-0">
+                        <div class="title-parent w-100">
+                            <h5 class="main-title fw-bold main-title- text-capitalize header-title text-secondary">
+                                میزکار (نت استار))
+                            </h5>
+                        </div>
+                        <span class=" ms-2">
+                            <i class="fa fa-angle-down text-secondary"></i>
+                        </span>
+                    </div>
+                    <div class="main-task-section gap-3 justify-content-md-start">
+                        <div class="task-section ripple-effect ripple-dark">
+                            <div class="col-12 d-flex flex-column justify-content-between gap-3">
+                                <div class="col-12 d-flex flex-row align-items-center justify-content-center">
+                                    <img class="task-icon" src="assets/img/computer-6828.svg">
+                                </div>
+                                <div class="col-12 d-flex flex-column justify-content-between align-items-center gap-3">
+                                    <span class="task-text text-secondary">
+                                        کارهای دارای تاخیر
+                                    </span>
+                                    <span class="fw-bolder">
+                                        5
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-section ripple-effect ripple-dark">
+                            <div class="col-12 d-flex flex-column justify-content-between gap-3">
+                                <div class="col-12 d-flex flex-row align-items-center justify-content-center">
+                                    <img class="task-icon" src="assets/img/computer-6828.svg">
+                                </div>
+                                <div class="col-12 d-flex flex-column justify-content-between align-items-center gap-3">
+                                    <span class="task-text text-secondary">
+                                        کارهای دارای تاخیر
+                                    </span>
+                                    <span class="fw-bolder">
+                                        5
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-section ripple-effect ripple-dark">
+                            <div class="col-12 d-flex flex-column justify-content-between gap-3">
+                                <div class="col-12 d-flex flex-row align-items-center justify-content-center">
+                                    <img class="task-icon" src="assets/img/computer-6828.svg">
+                                </div>
+                                <div class="col-12 d-flex flex-column justify-content-between align-items-center gap-3">
+                                    <span class="task-text text-secondary">
+                                        کارهای دارای تاخیر
+                                    </span>
+                                    <span class="fw-bolder">
+                                        5
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-section ripple-effect ripple-dark">
+                            <div class="col-12 d-flex flex-column justify-content-between gap-3">
+                                <div class="col-12 d-flex flex-row align-items-center justify-content-center">
+                                    <img class="task-icon" src="assets/img/computer-6828.svg">
+                                </div>
+                                <div class="col-12 d-flex flex-column justify-content-between align-items-center gap-3">
+                                    <span class="task-text text-secondary">
+                                        کارهای دارای تاخیر
+                                    </span>
+                                    <span class="fw-bolder">
+                                        5
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-section ripple-effect ripple-dark">
+                            <div class="col-12 d-flex flex-column justify-content-between gap-3">
+                                <div class="col-12 d-flex flex-row align-items-center justify-content-center">
+                                    <img class="task-icon" src="assets/img/computer-6828.svg">
+                                </div>
+                                <div class="col-12 d-flex flex-column justify-content-between align-items-center gap-3">
+                                    <span class="task-text text-secondary">
+                                        کارهای دارای تاخیر
+                                    </span>
+                                    <span class="fw-bolder">
+                                        5
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-section ripple-effect ripple-dark">
+                            <div class="col-12 d-flex flex-column justify-content-between gap-3">
+                                <div class="col-12 d-flex flex-row align-items-center justify-content-center">
+                                    <img class="task-icon" src="assets/img/computer-6828.svg">
+                                </div>
+                                <div class="col-12 d-flex flex-column justify-content-between align-items-center gap-3">
+                                    <span class="task-text text-secondary">
+                                        کارهای دارای تاخیر
+                                    </span>
+                                    <span class="fw-bolder">
+                                        5
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-section ripple-effect ripple-dark">
+                            <div class="col-12 d-flex flex-column justify-content-between gap-3">
+                                <div class="col-12 d-flex flex-row align-items-center justify-content-center">
+                                    <img class="task-icon" src="assets/img/computer-6828.svg">
+                                </div>
+                                <div class="col-12 d-flex flex-column justify-content-between align-items-center gap-3">
+                                    <span class="task-text text-secondary">
+                                        کارهای دارای تاخیر
+                                    </span>
+                                    <span class="fw-bolder">
+                                        5
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 employees px-2">
+                        <div>
+                            <span class="main-title">همکاران من :</span>
+                        </div>
+                        <div class="employee">
+                            <picture class="pb-3" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                     title="محمدجواد طالب کارگر">
+                                <source class="w-100 h-100" srcset="assets/img/20220322_155430.jpg">
+                                <img class="w-100 h-100" src="assets/img/gradient.svg">
+                            </picture>
+                        </div>
+                        <div class="employee">
+                            <picture class="pb-3" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                     title="محمدجواد طالب کارگر">
+                                <source class="w-100 h-100" srcset="assets/img/20220322_155430.jpg">
+                                <img class="w-100 h-100" src="assets/img/gradient.svg">
+                            </picture>
+                        </div>
+                        <div class="employee">
+                            <picture class="pb-3" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                     title="محمدجواد طالب کارگر">
+                                <source class="w-100 h-100" srcset="assets/img/20220322_155430.jpg">
+                                <img class="w-100 h-100" src="assets/img/gradient.svg">
+                            </picture>
+                        </div>
+                        <div class="employee">
+                            <picture class="pb-3" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                     title="محمدجواد طالب کارگر">
+                                <source class="w-100 h-100" srcset="assets/img/20220322_155430.jpg">
+                                <img class="w-100 h-100" src="assets/img/gradient.svg">
+                            </picture>
+                        </div>
+                        <div class="employee">
+                            <picture class="pb-3" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                     title="محمدجواد طالب کارگر">
+                                <source class="w-100 h-100" srcset="assets/img/20220322_155430.jpg">
+                                <img class="w-100 h-100" src="assets/img/gradient.svg">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="project-section-opener d-flex flex-row align-items-center">
+                        <div class="title-parent w-100">
+                            <h5 class="main-title main-title- text-capitalize header-title text-secondary">
+                                پروژه ها
+                            </h5>
+                        </div>
+                        <span class="ms-2">
+                            <i class="fa fa-angle-down text-secondary"></i>
+                        </span>
+                    </div>
+                    <div class="col-12 project-section-parent justify-content-around justify-content-md-start">
+                        <div class="project-section px-3 pt-3 pb-4">
+                            <div class="d-flex flex-row">
+                                <div class="col-6 d-flex flex-row ps-1 gap-2 dropdown">
+                                    <span class="project-menu-icon px-3" data-bs-toggle="dropdown"
+                                          aria-expanded="false">
+                                        <i class="fa fa-bars small"></i>
+                                    </span>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item py-2 ripple-effect ripple-dark">
+                                            <i class="fa fa-user text-dark"></i>
+                                            <span class="mt-1" type="button">اعضای پروژه</span>
+                                        </li>
+                                        <li class="dropdown-item py-2">
+                                            <i class="fa fa-tasks text-primary"></i>
+                                            <span class="mt-1" type="button">لیست وظایف</span>
+                                        </li>
+                                        <li class="dropdown-item py-2">
+                                            <i class="fa fa-edit text-warning"></i>
+                                            <span class="mt-1" type="button">ویرایش پروژه</span>
+                                        </li>
+                                        <li class="dropdown-item py-2">
+                                            <i class="fa fa-trash text-danger"></i>
+                                            <span class="mt-1" type="button">حذف پروژه</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 d-flex flex-row justify-content-end pe-2">
+                                    <span class="small text-secondary">
+                                        ۲۰ مهر
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column align-items-center gap-2 mt-4">
+                                <img class="project-img rounded-circle"
+                                     src="assets/img/vecteezy_background-abstract-template-banner-with-gradient-color_10666559.jpg">
+                                <span>
+                                    نت استار
+                                </span>
+                                <div class="project-participant-section">
+                                    <img class="project-participant rounded-circle"
+                                         src="assets/img/20220322_155430.jpg">
+                                    <img class="project-participant rounded-circle"
+                                         src="assets/img/20220322_155430.jpg">
+                                    <img class="project-participant rounded-circle"
+                                         src="assets/img/20220322_155430.jpg">
+                                    <img class="project-participant rounded-circle"
+                                         src="assets/img/20220322_155430.jpg">
+                                </div>
+                            </div>
+                            <div class="col-12 mt-4 d-flex flex-column gap-2">
+                                <span class="font-project-tasks">
+                                    وضعیت کل پروژه:
+                                </span>
+                                <div class="progress">
+                                    <div style="width: 50%;" class="progress-bar bg-info pb-3" data-bs-toggle="tooltip"
+                                         data-bs-placement="bottom" title="کارهای دیر شده"></div>
+                                    <div style="width: 25%;" class="progress-bar bg-danger pb-3"
+                                         data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                         title="کارهای دیر شده"></div>
+                                    <div style="width: 25%;" class="progress-bar bg-warning pb-3"
+                                         data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                         title="کارهای زمان دار"></div>
+                                </div>
+                                <span class="font-project-tasks">
+                                    وظایف من :
+                                </span>
+                                <div class="progress">
+                                    <div style="width: 50%;" class="progress-bar bg-info pb-3" data-bs-toggle="tooltip"
+                                         data-bs-placement="bottom" title="کارهای دیر شده"></div>
+                                    <div style="width: 25%;" class="progress-bar bg-danger pb-3"
+                                         data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                         title="کارهای دیر شده"></div>
+                                    <div style="width: 25%;" class="progress-bar bg-warning pb-3"
+                                         data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                         title="کارهای زمان دار"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-section px-3 pt-3 pb-4">
+                            <div class="d-flex flex-row">
+                                <div class="col-6 d-flex flex-row ps-1 gap-2 dropdown">
+                                    <span class="project-menu-icon px-3" data-bs-toggle="dropdown"
+                                          aria-expanded="false">
+                                        <i class="fa fa-bars small"></i>
+                                    </span>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item py-2 ripple-effect ripple-dark">
+                                            <i class="fa fa-user text-dark"></i>
+                                            <span class="mt-1" type="button">اعضای پروژه</span>
+                                        </li>
+                                        <li class="dropdown-item py-2">
+                                            <i class="fa fa-tasks text-primary"></i>
+                                            <span class="mt-1" type="button">لیست وظایف</span>
+                                        </li>
+                                        <li class="dropdown-item py-2">
+                                            <i class="fa fa-edit text-warning"></i>
+                                            <span class="mt-1" type="button">ویرایش پروژه</span>
+                                        </li>
+                                        <li class="dropdown-item py-2">
+                                            <i class="fa fa-trash text-danger"></i>
+                                            <span class="mt-1" type="button">حذف پروژه</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 d-flex flex-row justify-content-end pe-2">
+                                    <span class="small text-secondary">
+                                        ۲۰ مهر
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column align-items-center gap-2 mt-4">
+                                <img class="project-img rounded-circle"
+                                     src="assets/img/vecteezy_background-abstract-template-banner-with-gradient-color_10666559.jpg">
+                                <span>
+                                    نت استار
+                                </span>
+                                <div class="project-participant-section">
+                                    <img class="project-participant rounded-circle"
+                                         src="assets/img/20220322_155430.jpg">
+                                    <img class="project-participant rounded-circle"
+                                         src="assets/img/20220322_155430.jpg">
+                                    <img class="project-participant rounded-circle"
+                                         src="assets/img/20220322_155430.jpg">
+                                    <img class="project-participant rounded-circle"
+                                         src="assets/img/20220322_155430.jpg">
+                                </div>
+                            </div>
+                            <div class="col-12 mt-4 d-flex flex-column gap-2">
+                                <span class="font-project-tasks">
+                                    وضعیت کل پروژه:
+                                </span>
+                                <div class="progress">
+                                    <div style="width: 50%;" class="progress-bar bg-info pb-3" data-bs-toggle="tooltip"
+                                         data-bs-placement="bottom" title="کارهای دیر شده"></div>
+                                    <div style="width: 25%;" class="progress-bar bg-danger pb-3"
+                                         data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                         title="کارهای دیر شده"></div>
+                                    <div style="width: 25%;" class="progress-bar bg-warning pb-3"
+                                         data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                         title="کارهای زمان دار"></div>
+                                </div>
+                                <span class="font-project-tasks">
+                                    وظایف من :
+                                </span>
+                                <div class="progress">
+                                    <div style="width: 50%;" class="progress-bar bg-info pb-3" data-bs-toggle="tooltip"
+                                         data-bs-placement="bottom" title="کارهای دیر شده"></div>
+                                    <div style="width: 25%;" class="progress-bar bg-danger pb-3"
+                                         data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                         title="کارهای دیر شده"></div>
+                                    <div style="width: 25%;" class="progress-bar bg-warning pb-3"
+                                         data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                         title="کارهای زمان دار"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="file-section-opener d-flex flex-row align-items-center">
+                        <div class="title-parent w-100">
+                            <h5 class="main-title main-title- text-capitalize header-title text-secondary">
+                                فایل ها
+                            </h5>
+                        </div>
+                        <span class="ms-2">
+                            <i class="fa fa-angle-down text-secondary"></i>
+                        </span>
+                    </div>
+                    <div class="file-section rounded-3">
+                        <div class="col-12 d-flex flex-column me-4">
+                            <div class="col-12 d-flex flex-row justify-content-between align-items-center">
+                                <form class="file-search-bar col-md-4 col-6" role="search">
+                                    <label for="search">Search for stuff</label>
+                                    <input id="search" type="search" placeholder="جستجوی فایل ..." required/>
+                                    <button class="ripple ripple-dark" type="submit"><i class="fa fa-search"></i>
+                                    </button>
+                                </form>
+                                <div class="">
+                                    <button class="btn btn-sm py-0 btn-primary ripple-effect ripple-dark">
+                                        پوشه جدید
+                                    </button>
+                                    <button class="btn btn-sm py-0 btn-primary ripple-effect ripple-green">
+                                        آپلود فایل
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <ol class="breadcrumb px-4 py-2">
+                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Library</li>
+                                </ol>
+                                <span class="badge bg-primary">
+                                ۸۶ آیتم
+                            </span>
+                            </div>
+                            <table class="table table-responsive">
+                                <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">نام</th>
+                                    <th scope="col">سایز</th>
+                                    <th scope="col">آپشن ها</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">۱</th>
+                                    <td>
+                                        <div class="d-flex flex-row gap-2 align-items-center">
+                                            <i class="fa fa-folder text-info mb-1"></i>
+                                            <span class="small">bootstrap-5.2.0-dist</span>
+                                        </div>
+                                    </td>
+                                    <td class="small">
+                                        ۳ مگابایت
+                                    </td>
+                                    <td>
+                                        <div class="d-flex flex-row align-items-center gap-3">
+                                            <a>
+                                                <i class="fa fa-cloud-download-alt"></i>
+                                            </a>
+                                            <a>
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">۱</th>
+                                    <td>
+                                        <div class="d-flex flex-row gap-2 align-items-center">
+                                            <i class="fa fa-folder text-info mb-1"></i>
+                                            <span class="small">bootstrap-5.2.0-dist</span>
+                                        </div>
+                                    </td>
+                                    <td class="small">
+                                        ۳ مگابایت
+                                    </td>
+                                    <td>
+                                        <div class="d-flex flex-row align-items-center gap-3">
+                                            <a>
+                                                <i class="fa fa-cloud-download-alt"></i>
+                                            </a>
+                                            <a>
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">۱</th>
+                                    <td>
+                                        <div class="d-flex flex-row gap-2 align-items-center">
+                                            <i class="fa fa-folder text-info mb-1"></i>
+                                            <span class="small">bootstrap-5.2.0-dist</span>
+                                        </div>
+                                    </td>
+                                    <td class="small">
+                                        ۳ مگابایت
+                                    </td>
+                                    <td>
+                                        <div class="d-flex flex-row align-items-center gap-3">
+                                            <a>
+                                                <i class="fa fa-cloud-download-alt"></i>
+                                            </a>
+                                            <a>
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-sec-one-left w-left-content gap-3 order-0 order-md-1">
+                    <div class="d-flex flex-column gap-3 sticky-content">
+                        <div class="profile-section flex-row flex-md-column align-items-md-center rounded-3 bg-white px-2 py-2 py-md-0">
+                            <div class="col-md-12 d-flex flex-row flex-md-column gap-5 gap-md-1 align-items-center">
+                                <img class="profile-img img-fluid rounded-3 shadow col-3 col-md-9"
+                                     src="assets/img/20220322_155430.jpg">
+                                <div class="d-flex flex-column gap-md-2 gap-md-1 align-items-md-center">
+                                    <span class="small fw-bold mt-3">
+                                        محمد جواد طالب کارگر
+                                    </span>
+                                    <span class="small">
+                                     مدیریت مالی
+                                    </span>
+                                    <div class="d-flex flex-md-row gap-2 mb-3 mt-3 mt-md-2">
+                                        <button class="user-options ripple-effect ripple-dark rounded-circle"
+                                                data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                title="تنظیمات حساب کاربری">
+                                            <i class="fa fa-user-edit"></i>
+                                        </button>
+                                        <button class="user-options ripple-effect ripple-dark rounded-circle"
+                                                data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                title="شخصی سازی میزکار">
+                                            <i class="fa fa-sheet-plastic"></i>
+                                        </button>
+                                        <button class="user-options ripple-effect ripple-dark rounded-circle"
+                                                data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                title="خروج از حساب کاربری">
+                                            <i class="fa fa-sign-out"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--jquery-v-3.6.1-->
+<script rel="script" src="plugins/jquery-3.6.1.min.js"></script>
+<!--owl carousel-->
+<script rel="script" src="plugins/owl-carousel/js/owl.carousel.js"></script>
+<!--bootstrap-->
+<script rel="script" src="plugins/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+<script rel="script" src="plugins/apexcharts-bundle/dist/apexcharts.js"></script>
+<!--scripts-->
+<script rel="script" src="assets/js/script.js"></script>
+</body>
+</html>
